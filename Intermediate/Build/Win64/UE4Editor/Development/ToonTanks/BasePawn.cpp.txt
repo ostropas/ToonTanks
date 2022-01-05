@@ -1,0 +1,3 @@
+C:\Workspace\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h
+C:\Workspace\ToonTanks\Source\ToonTanks\BasePawn.h
+C:\Workspace\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\BasePawn.generated.h
