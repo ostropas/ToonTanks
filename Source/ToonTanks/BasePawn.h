@@ -20,8 +20,14 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
-	UPROPERTY()
-	class UCapsuleComponent* m_capsuleComp;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Components", meta=(AllowPrivateAccess = "true"))
+	class UCapsuleComponent* CapsuleComp;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Components", meta=(AllowPrivateAccess = "true"))
+	UStaticMeshComponent* BaseMesh;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Components", meta=(AllowPrivateAccess = "true"))
+	UStaticMeshComponent* TurretMesh;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Components", meta=(AllowPrivateAccess = "true"))
+	USceneComponent* ProjectileSpawnPoint;
 
 public:	
 	// Called every frame
