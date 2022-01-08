@@ -60,6 +60,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATank); \
 
 #define ToonTanks_Source_ToonTanks_Tank_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(ATank, Speed); } \
+	FORCEINLINE static uint32 __PPO__RotateSpeed() { return STRUCT_OFFSET(ATank, RotateSpeed); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComponent() { return STRUCT_OFFSET(ATank, SpringArmComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ATank, CameraComponent); }
 
