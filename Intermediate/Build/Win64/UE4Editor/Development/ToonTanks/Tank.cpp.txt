@@ -3,6 +3,7 @@ C:\Workspace\ToonTanks\Source\ToonTanks\Tank.h
 C:\Workspace\ToonTanks\Source\ToonTanks\BasePawn.h
 C:\Workspace\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\BasePawn.generated.h
 C:\Workspace\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\Tank.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
