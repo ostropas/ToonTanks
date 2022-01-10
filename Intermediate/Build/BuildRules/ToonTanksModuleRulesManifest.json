@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Workspace\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
-		"C:\\Workspace\\ToonTanks\\Source\\ToonTanks.Target.cs",
-		"C:\\Workspace\\ToonTanks\\Source\\ToonTanksEditor.Target.cs"
-	],
-	"EngineVersion": "4.25.4"
-}
