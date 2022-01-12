@@ -2,6 +2,9 @@
 
 
 #include "Tower.h"
+
+#include <valarray>
+
 #include "Tank.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -36,6 +39,8 @@ void ATower::HandleDestruction()
 
 void ATower::CheckFireCondition()
 {
+	if (!Tank) return;
 	if (!IsTankInFireRange()) return;
+	if (!Tank->bAlive) return;
 	Fire();
 }

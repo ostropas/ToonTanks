@@ -26,6 +26,9 @@ public:
 private:
 	UPROPERTY(EditDefaultsOnly, Category="Combat")
 	UStaticMeshComponent* ProjectileMesh;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Combat")
+	UParticleSystemComponent* SmokeTrailParticles;
 
 	UPROPERTY(EditAnywhere, Category="Combat")
 	class UProjectileMovementComponent* ProjectileMovementComponent;
@@ -35,4 +38,16 @@ private:
 
 	UPROPERTY(EditAnywhere, Category="Combat")
 	float Damage = 50.f;
+
+	UPROPERTY(EditAnywhere, Category="Combat")
+	UParticleSystem* HitParticles;
+
+	UPROPERTY(EditAnywhere, Category="Combat")
+	class USoundBase* LaunchSound;
+
+	UPROPERTY(EditAnywhere, Category="Combat")
+	USoundBase* HitSound;
+
+	UPROPERTY(EditAnywhere, Category="Combat")
+	TSubclassOf<UCameraShake> HitCameraShakeClass;
 };
